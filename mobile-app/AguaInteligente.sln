@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AguaInteligente", "AguaInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AguaInteligente.UWP", "AguaInteligente\AguaInteligente.UWP\AguaInteligente.UWP.csproj", "{4333D13C-CA4F-4A08-893C-4B6C62B93921}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AguaInteligente.Tests", "AguaInteligente\AguaInteligente.Tests\AguaInteligente.Tests.csproj", "{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
@@ -163,6 +165,42 @@ Global
 		{4333D13C-CA4F-4A08-893C-4B6C62B93921}.Release|x86.ActiveCfg = Release|x86
 		{4333D13C-CA4F-4A08-893C-4B6C62B93921}.Release|x86.Build.0 = Release|x86
 		{4333D13C-CA4F-4A08-893C-4B6C62B93921}.Release|x86.Deploy.0 = Release|x86
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|ARM.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|x64.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.AppStore|x86.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|x64.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|ARM.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|iPhone.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|x64.Build.0 = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFD424BE-3FB8-4A0C-9DB1-BA7EC4C1A456}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

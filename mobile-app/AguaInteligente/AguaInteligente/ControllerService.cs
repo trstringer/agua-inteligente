@@ -16,9 +16,9 @@ namespace AguaInteligente
         /// the irrigation system is currently on (true) or 
         /// off (false)
         /// </summary>
-        public GetIrrigationStatus()
+        public bool GetIrrigationStatus()
         {
-
+            throw new NotImplementedException();
         }
     }
 }
