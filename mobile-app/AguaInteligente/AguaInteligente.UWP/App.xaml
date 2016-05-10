@@ -5,4 +5,34 @@
     xmlns:local="using:AguaInteligente.UWP"
     RequestedTheme="Light">
 
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#0d47a1" />
+            <Setter Property="Background" Value="#e3f2fd" />
+            <Setter Property="Margin" Value="8, 8, 8, 8" />
+            <Setter Property="Padding" Value="8, 12, 8, 12" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+        </Style>
+
+        <Style TargetType="CommandBar">
+            <Setter Property="Background" Value="#bbdefb" />
+            <Setter Property="Foreground" Value="#0d47a1" />
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+
+        <Style TargetType="AppBarButton">
+            <Setter Property="Foreground" Value="#0d47a1" />
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="#0d47a1" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="BorderBrush" Value="#0d47a1" />
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+    </Application.Resources>
 </Application>

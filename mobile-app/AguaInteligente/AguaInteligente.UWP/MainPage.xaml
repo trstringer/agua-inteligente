@@ -7,7 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.TopAppBar>
+        <CommandBar Content="Agua Inteligente">
+            <AppBarButton Icon="Setting" Label="Settings" Tapped="Settings_Tapped" />
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
+        <StackPanel Grid.Column="0" Margin="0, 12, 0, 0">
+            <Grid Margin="16, 0, 16, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <TextBlock Grid.Row="0" Grid.Column="0">Irrigation service:</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" Name="ServiceStatusDisplay">Available</TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0">Sprinkler:</TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" Name="SprinklerStatusDisplay">On</TextBlock>
+            </Grid>
+            <Button x:Name="ToggleIrrigation" Content="Start" Tapped="ToggleIrrigation_Tapped" />
+        </StackPanel>
     </Grid>
 </Page>

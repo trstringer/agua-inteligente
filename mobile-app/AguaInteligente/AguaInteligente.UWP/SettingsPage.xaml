@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="AguaInteligente.UWP.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AguaInteligente.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.TopAppBar>
+        <CommandBar Content="Agua Inteligente">
+            <AppBarButton Icon="Save" Label="Save" Tapped="Save_Tapped" />
+            <AppBarButton Icon="Cancel" Label="Cancel" Tapped="Cancel_Tapped" />
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Margin="12, 12, 12, 12">
+            <TextBlock FontSize="36">Settings</TextBlock>
+
+            <StackPanel Margin="8, 16, 8, 16">
+                <TextBlock>Service URL</TextBlock>
+                <TextBox Name="ServiceUrl" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
